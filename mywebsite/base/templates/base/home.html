@@ -1,0 +1,84 @@
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/main.css' %} " type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div id="profile-wrapper" class="card card-body body-info"> 
+                    <img id="profile-pic" src="{% static 'images/suit3.JPG' %}" alt=""> 
+                    <hr>
+                    <h5> Hi! I am Syed Qasim Mustafa</h5>
+                    <p> I love coding, photography and  unhealthy amounts of coffee!</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body body-info">
+                <h4 id="about_me">About Me!</h4>
+                <p>One of my passions is writing poetry in English. Over the years, I have crafted a collection of poems that have been published in  literary journals and anthologies. Each piece reflects my unique perspective and emotional depth, and I find immense joy in expressing myself through the art of poetry. The process of writing allows me to explore and articulate my thoughts and feelings in a creative and impactful way.</p>
+                <p>Another interest of mine is photography, which I approach with great enthusiasm. While I have a particular affinity for street photography, capturing the candid and often fleeting moments of daily life, I also delve into portrait and product photography. Each of these genres offers a different perspective and challenges me to see the world through various lenses. The art of photography not only allows me to freeze moments in time but also to convey stories and emotions through visual imagery.</p>
+                <p>In addition to writing and photography, I dedicate some of my free time to creating short 3D animations using Blender. This hobby stems from my deep appreciation for cinema and visual storytelling. By experimenting with 3D modeling and animation, I aim to bring imaginative concepts to life and explore the nuances of cinematic techniques. This creative outlet not only enhances my technical skills but also fuels my passion for studying and appreciating the art of film.</p>
+                
+                <ul class="social-links">
+                    <a href="https://www.instagram.com/clicks.n.codes/"><li> <img class="social" src="{% static 'images/li.png' %}" alt=""></li> </a>
+                    <a href="https://www.linkedin.com/in/sqm1003/"><li> <img class="social" src="{% static 'images/ig.png' %}" alt=""></li> </a>
+                </ul>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>The Data Analyst</h4>
+                    <p> In terms of technical skills, I am proficient in programming languages such as Python, R, and MATLAB, which I utilize extensively for data analytics tasks. For data visualization, I leverage powerful tools including Seaborn, Tableau, and PowerBI, enabling me to create insightful and interactive visual representations of data. I am also passionate about continuously improving my problem-solving skills and regularly practice Data Structures and Algorithms on LeetCode, using both Java and Python to tackle a range of challenging problems.</p>
+                 </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                <h4>The Web Developer</h4>
+                <p>I am actively involved in web development projects, utilizing a diverse tech stack. For front-end design, I use HTML, CSS, and Bootstrap, while Django handles the backend, and MySQL manages the database. This combination equips me to create and maintain dynamic, data-driven websites and applications efficiently. My enthusiasm for exploring new technologies drives me to continually enhance my skills in these areas, ensuring I stay current and effective in my web development endeavors.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                <h4>The Game Enthusiast</h4>
+                <p>I am deeply fascinated by the complex process of game development. I enjoy exploring how games are made, analyzing the challenges developers encounter, and understanding the solutions they devise. This exploration offers me valuable insights into the technical and artistic elements that contribute to a game's success. By examining these aspects, I gain a deeper appreciation for the intricate balance between creativity and technology that defines exceptional game design.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100"> 
+                    <h4>Career Goals</h4>
+                    <p>I am eager to start a career in data analytics and machine learning, as these fields align perfectly with my skills and passions. My aim is to leverage my expertise to drive impactful results and contribute meaningfully. I look forward to analyzing complex data sets, developing predictive models, and uncovering insights that aid in informed decision-making. I am excited to apply my knowledge to real-world challenges, blend technical skills with creative problem-solving, and excel in these dynamic domains.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+    </div>
+</body>
+</html>
